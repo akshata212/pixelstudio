@@ -1,0 +1,48 @@
+
+{
+  "placeholderImages": [
+    { "id": "site-logo", "description": "PixelStudio Logo", "imageUrl": "/logo.jpeg", "imageHint": "studio logo" },
+    { "id": "hero-1", "description": "Elegant Wedding Couple", "imageUrl": "/images/hero4.jpeg", "imageHint": "wedding photography" },
+    { "id": "hero-2", "description": "Professional Studio Portrait", "imageUrl": "/hero2.jpeg", "imageHint": "studio portrait" },
+    { "id": "hero-3", "description": "Maternity Celebration", "imageUrl": "/images/hero3.jpeg", "imageHint": "maternity photoshoot" },
+    { "id": "service-wedding", "description": "Wedding Service", "imageUrl": "/images/wedding.jpg", "imageHint": "wedding" },
+    { "id": "service-maternity", "description": "Maternity Service", "imageUrl": "/images/mater.jpg", "imageHint": "maternity" },
+    { "id": "service-baby", "description": "Baby Service", "imageUrl": "/images/baby.jpg", "imageHint": "baby" },
+    
+    { "id": "port-motion-1", "description": "Motion Video", "videoUrl": "/videos/Motion1.mp4", "imageHint": "drone shot" },
+    
+    { "id": "port-video-1", "description": "Advertisement Video", "videoUrl": "/videos/video.mp4", "imageHint": "interview set" },
+   
+    { "id": "port-graphics-1", "description": "Graphic Image", "imageUrl": "/images/graphic1.jpeg", "imageHint": "logo design" },
+    { "id": "port-graphics-2", "description": "Graphic Image", "imageUrl": "/images/graphic2.jpeg", "imageHint": "event poster" },
+    { "id": "port-graphics-3", "description": "Graphic Image", "imageUrl": "/images/graphic3.jpeg", "imageHint": "packaging" },
+    { "id": "port-graphics-4", "description": "Graphic Image", "imageUrl": "/images/graphic4.jpeg", "imageHint": "brochure" },
+    { "id": "port-graphics-5", "description": "Graphic Image", "imageUrl": "/images/graphic5.jpeg", "imageHint": "social design" },
+    { "id": "port-graphics-6", "description": "Graphic Image", "imageUrl": "/images/graphic6.jpeg", "imageHint": "illustration" },
+    { "id": "port-graphics-7", "description": "Graphic Image", "imageUrl": "/images/graphic7.jpeg", "imageHint": "book cover" },
+
+    { "id": "port-thumb-1", "description": "Thumbnails", "imageUrl": "/images/thamb1.jpeg", "imageHint": "gaming thumbnail" },
+    { "id": "port-thumb-2", "description": "Thumbnails", "imageUrl": "/images/thamb2.jpeg", "imageHint": "tech thumbnail" },
+    { "id": "port-thumb-3", "description": "Thumbnails", "imageUrl": "/images/thamb3.jpeg", "imageHint": "vlog thumbnail" },
+    { "id": "port-thumb-4", "description": "Thumbnails", "imageUrl": "/images/thamb4.jpeg", "imageHint": "finance thumbnail" },
+    { "id": "port-thumb-5", "description": "Thumbnails", "imageUrl": "/images/thamb5.jpeg", "imageHint": "gym thumbnail" },
+    { "id": "port-thumb-6", "description": "Thumbnails", "imageUrl": "/images/thamb6.jpeg", "imageHint": "code thumbnail" },
+    { "id": "port-thumb-7", "description": "Thumbnails", "imageUrl": "/images/thamb7.jpeg", "imageHint": "travel thumbnail" },
+   
+    { "id": "port-podcast-1", "description": "Podcasts", "videoUrl": "/videos/prodcast1.mp4", "imageHint": "mic setup" },
+    { "id": "port-podcast-2", "description": "Podcasts", "videoUrl": "/videos/prodcast2.mp4", "imageHint": "podcast lights" },
+   
+
+    { "id": "port-wedding-1", "description": "Weddingshoot", "videoUrl": "/videos/video1.mp4", "imageHint": "royal wedding" },
+    { "id": "port-wedding-2", "description": "Weddingshoot", "videoUrl": "/videos/video2.mp4", "imageHint": "candid wedding" },
+    { "id": "port-wedding-3", "description": "Haldishoot", "videoUrl": "/videos/video3.mp4", "imageHint": "sunset wedding" },
+    { "id": "port-wedding-4", "description": "Weddingshoot", "videoUrl": "/videos/video4.mp4", "imageHint": "wedding party" },
+    { "id": "port-wedding-5", "description": "Mehndishoot", "videoUrl": "/videos/video5.mp4", "imageHint": "bride jewelry" },
+    { "id": "port-wedding-6", "description": "Weddingshoot", "videoUrl": "/videos/video6.mp4", "imageHint": "groom style" },
+    { "id": "port-wedding-7", "description": "PreWeddingshoot", "videoUrl": "/videos/video7.mp4", "imageHint": "wedding rings" },
+    { "id": "port-wedding-8", "description": "Bridalshoot", "videoUrl": "/videos/video8.mp4", "imageHint": "wedding flowers" },
+    { "id": "port-wedding-9", "description": "Weddingshoot", "videoUrl": "/videos/video9.mp4", "imageHint": "wedding dance" },
+     { "id": "port-wedding-10", "description": "Weddingshoot", "videoUrl": "/videos/video10.mp4", "imageHint": "wedding dance" },
+    { "id": "port-wedding-11", "description": "Engagementshoot", "videoUrl": "/videos/video11.mp4", "imageHint": "wedding exit" }
+  ]
+}
