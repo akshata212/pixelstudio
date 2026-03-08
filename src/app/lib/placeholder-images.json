@@ -1,9 +1,9 @@
 
 {
   "placeholderImages": [
-    { "id": "site-logo", "description": "PixelStudio Logo", "imageUrl": "/logo.jpeg", "imageHint": "studio logo" },
+    { "id": "site-logo", "description": "PixelStudio Logo", "imageUrl": "/images/logo.jpeg", "imageHint": "studio logo" },
     { "id": "hero-1", "description": "Elegant Wedding Couple", "imageUrl": "/images/hero4.jpeg", "imageHint": "wedding photography" },
-    { "id": "hero-2", "description": "Professional Studio Portrait", "imageUrl": "/hero2.jpeg", "imageHint": "studio portrait" },
+    { "id": "hero-2", "description": "Professional Studio Portrait", "imageUrl": "/images/hero2.jpeg", "imageHint": "studio portrait" },
     { "id": "hero-3", "description": "Maternity Celebration", "imageUrl": "/images/hero3.jpeg", "imageHint": "maternity photoshoot" },
     { "id": "service-wedding", "description": "Wedding Service", "imageUrl": "/images/wedding.jpg", "imageHint": "wedding" },
     { "id": "service-maternity", "description": "Maternity Service", "imageUrl": "/images/mater.jpg", "imageHint": "maternity" },
