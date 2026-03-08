@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -72,7 +71,7 @@ export default function PortfolioPage() {
     <div className="pt-32 pb-24 min-h-screen bg-muted/10">
       <div className="max-w-7xl mx-auto px-6">
         <header className="text-center mb-16">
-          <h1 className="text-5xl font-headline font-extrabold mb-6">Our <span className="text-primary">Portfolio</span></h1>
+          <h1 className="text-4xl md:text-5xl font-headline font-extrabold mb-6">Our <span className="text-primary">Portfolio</span></h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10">
             Explore our diverse range of creative work across video production, graphics, and photography.
           </p>
@@ -84,7 +83,7 @@ export default function PortfolioPage() {
                   <TabsTrigger 
                     key={cat.id} 
                     value={cat.id}
-                    className="rounded-full px-6 py-2.5 data-[state=active]:bg-primary data-[state=active]:text-white transition-all font-medium"
+                    className="rounded-full px-4 sm:px-6 py-2 sm:py-2.5 data-[state=active]:bg-primary data-[state=active]:text-white transition-all font-medium text-xs sm:text-sm md:text-base whitespace-nowrap"
                   >
                     {cat.name}
                   </TabsTrigger>
@@ -131,7 +130,7 @@ export default function PortfolioPage() {
               
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-white text-center">
                 {item.isVideo && <Play size={48} className="mb-4 text-primary animate-pulse" fill="currentColor" />}
-                <h3 className="text-2xl font-headline font-bold mb-2">{item.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-headline font-bold mb-2">{item.title}</h3>
                 <span className="bg-primary/80 px-4 py-1 rounded-full text-xs uppercase tracking-widest font-bold">
                   {item.category.replace('-', ' ')}
                 </span>
@@ -146,33 +145,33 @@ export default function PortfolioPage() {
           </div>
         )}
 
-        {/* Drive Link Section */}
-        <section className="mt-24 py-16 bg-white rounded-[3rem] border shadow-sm text-center px-6 animate-fade-in-up">
-          <h2 className="text-3xl font-headline font-bold mb-4">Want to See the <span className="text-primary">Full Archive</span>?</h2>
-          <p className="text-muted-foreground mb-10 max-w-xl mx-auto text-lg leading-relaxed">
+        {/* Drive Link Section - Fully Responsive */}
+        <section className="mt-16 sm:mt-24 py-12 sm:py-20 bg-white rounded-3xl sm:rounded-[3rem] border shadow-sm text-center px-4 sm:px-10 animate-fade-in-up">
+          <h2 className="text-2xl sm:text-4xl font-headline font-bold mb-4">Want to See the <span className="text-primary">Full Archive</span>?</h2>
+          <p className="text-muted-foreground mb-8 sm:mb-12 max-w-xl mx-auto text-base sm:text-lg leading-relaxed">
             We maintain a complete library of our high-resolution RAW footage, edited masters, and design source files on Google Drive for our clients to browse.
           </p>
-          <Button asChild size="lg" className="rounded-full px-12 h-16 text-xl bg-accent hover:bg-accent/90 text-white font-bold shadow-xl shadow-accent/20 border-none group">
-            <a href="https://drive.google.com/drive/u/0/mobile/folders/11JfVzUFwxMZgIBDyu6ETCrucGcQ4yXPg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+          <Button asChild className="rounded-full w-full sm:w-auto px-6 sm:px-12 h-auto py-5 sm:py-7 text-lg sm:text-xl bg-accent hover:bg-accent/90 text-white font-bold shadow-xl shadow-accent/20 border-none group transition-all">
+            <a href="https://drive.google.com/drive/u/0/mobile/folders/11JfVzUFwxMZgIBDyu6ETCrucGcQ4yXPg" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
               <ExternalLink size={24} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-              Explore More Moments
+              Open Google Drive
             </a>
           </Button>
         </section>
       </div>
 
       <Dialog open={!!activeVideo} onOpenChange={(open) => !open && setActiveVideo(null)}>
-        <DialogContent className="max-w-4xl p-0 overflow-hidden bg-black border-none rounded-3xl group">
+        <DialogContent className="max-w-4xl p-0 overflow-hidden bg-black border-none rounded-2xl sm:rounded-3xl group">
           <button 
             onClick={() => setActiveVideo(null)}
-            className="absolute right-6 top-6 z-[60] bg-black/60 backdrop-blur-lg text-white p-2.5 rounded-full hover:bg-primary transition-all shadow-2xl border border-white/20"
+            className="absolute right-4 top-4 sm:right-6 sm:top-6 z-[60] bg-black/60 backdrop-blur-lg text-white p-2 rounded-full hover:bg-primary transition-all shadow-2xl border border-white/20"
             aria-label="Close video"
           >
             <X size={24} />
           </button>
 
-          <DialogHeader className="p-6 absolute top-0 left-0 right-0 z-10 bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
-            <DialogTitle className="text-white font-headline text-xl pr-12">{activeVideo?.title}</DialogTitle>
+          <DialogHeader className="p-4 sm:p-6 absolute top-0 left-0 right-0 z-10 bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
+            <DialogTitle className="text-white font-headline text-lg sm:text-xl pr-12">{activeVideo?.title}</DialogTitle>
           </DialogHeader>
           
           <div className="aspect-video w-full flex items-center justify-center bg-neutral-900">
