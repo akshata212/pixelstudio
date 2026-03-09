@@ -29,7 +29,7 @@ export default function ContactPage() {
             </div>
             <h3 className="text-2xl font-headline font-bold mb-4">Email</h3>
             <p className="text-muted-foreground mb-2">General inquiries</p>
-            <p className="text-xl font-bold text-foreground">pixelstudio@gmail.com</p>
+            <p className="text-xl font-bold text-foreground">pixelstudio6098@gmail.com</p>
           </div>
 
           <div className="glass p-10 rounded-[2.5rem] flex flex-col items-center text-center">
